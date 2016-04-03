@@ -1,6 +1,6 @@
 ## Code Book - Getting and Cleaning Data ##
 
-This code book describes the data, transformations, and variables produced by script run_analysis.R.
+This code book describes the data, transformations, and variables produced by the script 'run_analysis.R'.
 
 ### Source Data ###
 
