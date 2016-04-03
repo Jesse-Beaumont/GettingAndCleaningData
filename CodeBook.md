@@ -1,13 +1,13 @@
 ## Code Book - Getting and Cleaning Data ##
 
-a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
+This code book describes the data, transformations, and variables produced by script run_analysis.R.
 
 ### Source Data ###
 
 The script, run_analysis.R, extracts the following source data files:
 
-- Subject "Activity Labels" <- 'activity_labels.txt'
-- Measures including mean and standard deviation values <- 'features.txt'
+- Subject "Activity Labels" = 'activity_labels.txt'
+- Measures including mean and standard deviation values = 'features.txt'
 
 
 ### Transformation Steps ###
