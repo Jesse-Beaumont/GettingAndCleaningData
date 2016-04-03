@@ -77,12 +77,16 @@ rm(data_test_y)
 rm(data_train_y)
 colnames(data_y) <- c("activity_cd")
 # ----------------------------------------------
+#   Test + Training Subjects
+# ----------------------------------------------
 subjects_test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 subjects_train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 subjects <- rbind(subjects_test, subjects_train)
 rm(subjects_test)
 rm(subjects_train)
 colnames(subjects) <- c("subject_id")
+# ----------------------------------------------
+#   Bind Columns from Sources
 # ----------------------------------------------
 fact_data <- cbind(subjects, data_y, data_x)
 rm(data_x)
